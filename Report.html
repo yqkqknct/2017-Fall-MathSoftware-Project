@@ -1,0 +1,2741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="description" content="COMSOL Multiphysics model report" />
+    <meta name="keywords" content="comsol multiphysics model report" />
+    <!-- saved from url=(0014)about:internet -->
+    <title>Untitled</title>
+    <link rel="stylesheet" href="Untitled_files/report.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <div>
+      <a href="http://www.comsol.com">
+        <img src="Untitled_files/logo.png" width="159" height="34" style="float:right;border:none" />
+      </a>
+    </div>
+    <div class="ReportTitle" id="cs4483282">
+       <span>未命名</span>
+    </div>
+    <h4 id="cs5241263">
+       <span>報告日期</span>
+    </h4>
+    <p>
+      <a name="cs1583254">
+         <span>2018/1/20 下午 11:02:18</span>
+      </a>
+    </p>
+    <div class="TocHeading">
+       <span>內容</span>
+    </div>
+    <table style="border:0px;">
+      <tr>
+        <td style="border:0px;font-weight:bold">
+           <span>1.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;font-weight:bold" colspan="5">
+          <a href="#cs7394653">
+             <span>全域定義</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;">
+           <span>1.1.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;" colspan="4">
+          <a href="#cs7673231">
+             <span>參數 1</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;font-weight:bold">
+           <span>2.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;font-weight:bold" colspan="5">
+          <a href="#cs8093572">
+             <span>元件 1</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;">
+           <span>2.1.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;" colspan="4">
+          <a href="#cs7151108">
+             <span>定義</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;">
+           <span>2.2.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;" colspan="4">
+          <a href="#cs7314136">
+             <span>幾何 1</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;">
+           <span>2.3.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;" colspan="4">
+          <a href="#cs8718981">
+             <span>材料</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;">
+           <span>2.4.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;" colspan="4">
+          <a href="#cs6863529">
+             <span>流體熱傳</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;">
+           <span>2.5.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;" colspan="4">
+          <a href="#cs2970823">
+             <span>紊流 , k-ε 3</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;">
+           <span>2.6.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;" colspan="4">
+          <a href="#cs7164823">
+             <span>網格 1</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;font-weight:bold">
+           <span>3.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;font-weight:bold" colspan="5">
+          <a href="#cs8342147">
+             <span>研究 1</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;">
+           <span>3.1.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;" colspan="4">
+          <a href="#cs9441983">
+             <span>時間相依</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;font-weight:bold">
+           <span>4.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;font-weight:bold" colspan="5">
+          <a href="#cs9829426">
+             <span>結果</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;">
+           <span>4.1.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;" colspan="4">
+          <a href="#cs9019928">
+             <span>資料集</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;">
+           <span>4.2.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;" colspan="4">
+          <a href="#cs5083453">
+             <span>表單</span>
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td style="border:0px;">
+           <span>4.3.</span>
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;padding-left:10pt">
+        </td>
+        <td style="border:0px;" colspan="4">
+          <a href="#cs4238010">
+             <span>繪圖群組</span>
+          </a>
+        </td>
+      </tr>
+    </table>
+    <h2 id="cs8106273">
+      <a name="cs7394653">
+         <span>1. 全域定義</span>
+      </a>
+    </h2>
+    <table border="1">
+      <tr>
+        <td>
+           <span>日期</span>
+        </td>
+        <td>
+           <span>Jan 1, 2018 12:32:44 AM</span>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs2312789">
+           <span>全域設定</span>
+        </a>
+      </caption>
+      <tr>
+        <td>
+           <span>名稱</span>
+        </td>
+        <td>
+           <span>Ballwithairflow-sixpoint.mph</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>路徑</span>
+        </td>
+        <td>
+           <span>C:\Users\Rome\Downloads\ballwithairflow-sixpoint.mph</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>COMSOL 版本</span>
+        </td>
+        <td>
+           <span>COMSOL 5.3 (建立: 316)</span>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs3725322">
+           <span>使用的產品</span>
+        </a>
+      </caption>
+      <tr>
+        <td>
+           <span>COMSOL Multiphysics</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>CAD Import Module</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>CFD Module</span>
+        </td>
+      </tr>
+    </table>
+    <h3 id="cs5038315">
+      <a name="cs7673231">
+         <span>1.1. 參數 1</span>
+      </a>
+    </h3>
+    <table border="1">
+      <caption>
+        <a name="cs2220435">
+           <span>參數</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>名稱</span>
+        </th>
+        <th>
+           <span>表示式</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+        <th>
+           <span>描述</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>room_L</span>
+        </td>
+        <td>
+           <span>9</span>
+        </td>
+        <td>
+           <span>9</span>
+        </td>
+        <td>
+           <span>系微長</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>room_W</span>
+        </td>
+        <td>
+           <span>6.9</span>
+        </td>
+        <td>
+           <span>6.9</span>
+        </td>
+        <td>
+           <span>系微寬</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>room_H</span>
+        </td>
+        <td>
+           <span>3.17</span>
+        </td>
+        <td>
+           <span>3.17</span>
+        </td>
+        <td>
+           <span>系微高</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>door_W</span>
+        </td>
+        <td>
+           <span>0.89</span>
+        </td>
+        <td>
+           <span>0.89</span>
+        </td>
+        <td>
+           <span>門寬</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>door_H</span>
+        </td>
+        <td>
+           <span>2.34</span>
+        </td>
+        <td>
+           <span>2.34</span>
+        </td>
+        <td>
+           <span>門高</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>Ctable_W</span>
+        </td>
+        <td>
+           <span>0.56</span>
+        </td>
+        <td>
+           <span>0.56</span>
+        </td>
+        <td>
+           <span>電腦桌寬</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>Ctable_H</span>
+        </td>
+        <td>
+           <span>0.12</span>
+        </td>
+        <td>
+           <span>0.12</span>
+        </td>
+        <td>
+           <span>電腦桌高</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>Gtable_L</span>
+        </td>
+        <td>
+           <span>6.01</span>
+        </td>
+        <td>
+           <span>6.01</span>
+        </td>
+        <td>
+           <span>玻璃桌長</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>Gtable_W</span>
+        </td>
+        <td>
+           <span>0.89</span>
+        </td>
+        <td>
+           <span>0.89</span>
+        </td>
+        <td>
+           <span>玻璃桌寬</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>Gtable_H</span>
+        </td>
+        <td>
+           <span>1</span>
+        </td>
+        <td>
+           <span>1</span>
+        </td>
+        <td>
+           <span>玻璃桌高</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>cabinet_L</span>
+        </td>
+        <td>
+           <span>3.7</span>
+        </td>
+        <td>
+           <span>3.7</span>
+        </td>
+        <td>
+           <span>櫃子長</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>cabinet_W</span>
+        </td>
+        <td>
+           <span>1.1</span>
+        </td>
+        <td>
+           <span>1.1</span>
+        </td>
+        <td>
+           <span>櫃子寬</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>cabinet_H</span>
+        </td>
+        <td>
+           <span>2.5</span>
+        </td>
+        <td>
+           <span>2.5</span>
+        </td>
+        <td>
+           <span>櫃子高</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>sidetable_D</span>
+        </td>
+        <td>
+           <span>0.67</span>
+        </td>
+        <td>
+           <span>0.67</span>
+        </td>
+        <td>
+           <span>電腦桌側深</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>AC_W</span>
+        </td>
+        <td>
+           <span>0.8</span>
+        </td>
+        <td>
+           <span>0.8</span>
+        </td>
+        <td>
+           <span>冷氣長</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>AC_leaf</span>
+        </td>
+        <td>
+           <span>0.1</span>
+        </td>
+        <td>
+           <span>0.1</span>
+        </td>
+        <td>
+           <span>冷氣出風葉口寬</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>door_D</span>
+        </td>
+        <td>
+           <span>0.5</span>
+        </td>
+        <td>
+           <span>0.5</span>
+        </td>
+        <td>
+           <span>門厚度</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>sidetable_H</span>
+        </td>
+        <td>
+           <span>1</span>
+        </td>
+        <td>
+           <span>1</span>
+        </td>
+        <td>
+           <span>電腦桌側高</span>
+        </td>
+      </tr>
+    </table>
+    <h2 id="cs3728258">
+      <a name="cs8093572">
+         <span>2. 元件 1</span>
+      </a>
+    </h2>
+    <h3 id="cs9762760">
+      <a name="cs7151108">
+         <span>2.1. 定義</span>
+      </a>
+    </h3>
+    <h4 id="cs5019660">
+      <a name="cs9601350">
+         <span>2.1.1. 變數</span>
+      </a>
+    </h4>
+    <h5 id="cs7231670">
+      <a name="cs3641698">
+         <span>變數 1</span>
+      </a>
+    </h5>
+    <table border="1">
+      <caption>
+        <a name="cs2650065">
+           <span>選擇區</span>
+        </a>
+      </caption>
+      <tr>
+        <td>
+           <span>幾何實體等級</span>
+        </td>
+        <td>
+           <span>整個模型</span>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <tr>
+        <th>
+           <span>名稱</span>
+        </th>
+        <th>
+           <span>表示式</span>
+        </th>
+        <th>
+           <span>單位</span>
+        </th>
+        <th>
+           <span>描述</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>T_comp</span>
+        </td>
+        <td>
+           <span>intop1(T)</span>
+        </td>
+        <td>
+           <span>K</span>
+        </td>
+        <td>
+           <span></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>T_wall</span>
+        </td>
+        <td>
+           <span>intop1(T)</span>
+        </td>
+        <td>
+           <span>K</span>
+        </td>
+        <td>
+           <span></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>T_door</span>
+        </td>
+        <td>
+           <span>intop1(T)</span>
+        </td>
+        <td>
+           <span>K</span>
+        </td>
+        <td>
+           <span></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>T_ref</span>
+        </td>
+        <td>
+           <span>intop1(T)</span>
+        </td>
+        <td>
+           <span>K</span>
+        </td>
+        <td>
+           <span></span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>T_table</span>
+        </td>
+        <td>
+           <span>intop1(T)</span>
+        </td>
+        <td>
+           <span>K</span>
+        </td>
+        <td>
+           <span></span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs1787737">
+      <a name="cs8172072">
+         <span>2.1.2. 單元件耦合</span>
+      </a>
+    </h4>
+    <h5 id="cs6560409">
+      <a name="cs9938354">
+         <span>積分 1</span>
+      </a>
+    </h5>
+    <table border="1">
+      <tr>
+        <td>
+           <span>耦合類型</span>
+        </td>
+        <td>
+           <span>積分</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>運算子名稱</span>
+        </td>
+        <td>
+           <span>intop1</span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs5630287">
+      <a name="cs3728187">
+         <span>2.1.3. 選擇區</span>
+      </a>
+    </h4>
+    <h5 id="cs4659963">
+      <a name="cs5755346">
+         <span>Ds</span>
+      </a>
+    </h5>
+    <table border="1">
+      <tr>
+        <th>
+           <span>選擇區類型</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>Union</span>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <tr>
+        <th>
+           <span>選擇區</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>點 24–25, 28, 41–43, 58–60</span>
+        </td>
+      </tr>
+    </table>
+    <h5 id="cs7592913">
+      <a name="cs7027487">
+         <span>AirRoom</span>
+      </a>
+    </h5>
+    <table border="1">
+      <tr>
+        <th>
+           <span>選擇區類型</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>Union</span>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <tr>
+        <th>
+           <span>選擇區</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>區域 1–5</span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs2921208">
+      <a name="cs5810048">
+         <span>2.1.4. 座標系統</span>
+      </a>
+    </h4>
+    <h5 id="cs4003323">
+      <a name="cs1693762">
+         <span>邊界系統 1</span>
+      </a>
+    </h5>
+    <table border="1">
+      <tr>
+        <td>
+           <span>座標系統類型</span>
+        </td>
+        <td>
+           <span>邊界系統</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>標籤</span>
+        </td>
+        <td>
+           <span>sys1</span>
+        </td>
+      </tr>
+    </table>
+    <h3 id="cs9677044">
+      <a name="cs7314136">
+         <span>2.2. 幾何 1</span>
+      </a>
+    </h3>
+    <p>
+      <img src="Untitled_files/geom_geom1.png" alt="geom_geom1.png" width="480" height="360" />
+    </p>
+    <p style="font-style:italic">
+      <a name="cs6191387">
+         <span>幾何 1</span>
+      </a>
+    </p>
+    <table border="1">
+      <caption>
+        <a name="cs8589076">
+           <span>單位</span>
+        </a>
+      </caption>
+      <tr>
+        <td>
+           <span>長度單位</span>
+        </td>
+        <td>
+           <span>m</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>角單位</span>
+        </td>
+        <td>
+           <span>deg</span>
+        </td>
+      </tr>
+    </table>
+    <h3 id="cs8418149">
+      <a name="cs8718981">
+         <span>2.3. 材料</span>
+      </a>
+    </h3>
+    <h4 id="cs5186449">
+      <a name="cs4299956">
+         <span>2.3.1. Air</span>
+      </a>
+    </h4>
+    <p>
+      <img src="Untitled_files/material_mat1.png" alt="material_mat1.png" width="480" height="360" />
+    </p>
+    <p style="font-style:italic">
+      <a name="cs7769108">
+         <span>Air</span>
+      </a>
+    </p>
+    <table border="1">
+      <caption>
+        <a name="cs7410153">
+           <span>選擇區</span>
+        </a>
+      </caption>
+      <tr>
+        <td>
+           <span>幾何實體等級</span>
+        </td>
+        <td>
+           <span>區域</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>名稱</span>
+        </td>
+        <td>
+           <span>AirRoom</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>選擇區</span>
+        </td>
+        <td>
+           <span>區域 1–5</span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs1610615">
+      <a name="cs5673992">
+         <span>2.3.2. Iron</span>
+      </a>
+    </h4>
+    <p>
+      <img src="Untitled_files/material_mat2.png" alt="material_mat2.png" width="480" height="360" />
+    </p>
+    <p style="font-style:italic">
+      <a name="cs7586657">
+         <span>Iron</span>
+      </a>
+    </p>
+    <table border="1">
+      <caption>
+        <a name="cs2655184">
+           <span>選擇區</span>
+        </a>
+      </caption>
+      <tr>
+        <td>
+           <span>幾何實體等級</span>
+        </td>
+        <td>
+           <span>區域</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>名稱</span>
+        </td>
+        <td>
+           <span>球框</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>選擇區</span>
+        </td>
+        <td>
+           <span>無區域 </span>
+        </td>
+      </tr>
+    </table>
+    <h3 id="cs6373803">
+      <a name="cs6863529">
+         <span>2.4. 流體熱傳</span>
+      </a>
+    </h3>
+    <p>
+      <img src="Untitled_files/physics_ht.png" alt="physics_ht.png" width="480" height="360" />
+    </p>
+    <p style="font-style:italic">
+      <a name="cs6079454">
+         <span>流體熱傳</span>
+      </a>
+    </p>
+    <div class="TableHeading" id="cs2726071">
+       <span>Equations</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_ht_1.png" alt="equ_ht_1.png" width="246" height="30" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_ht_2.png" alt="equ_ht_2.png" width="58" height="18" style="padding-left:18pt;border:none" />
+    </p>
+    <table border="1">
+      <caption>
+        <a name="cs7750145">
+           <span>元件</span>
+        </a>
+      </caption>
+      <tr>
+        <td>
+           <span>流體 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>初始值 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>熱絕緣 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>熱通量 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>流出 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>熱通量 4</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>熱通量 5</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>熱通量 6</span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs2898597">
+      <a name="cs4219268">
+         <span>2.4.1. 流體 1</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs2654495">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_ht_fluid1_1.png" alt="equ_ht_fluid1_1.png" width="252" height="34" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_ht_fluid1_2.png" alt="equ_ht_fluid1_2.png" width="58" height="19" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs5110730">
+      <a name="cs3990505">
+         <span>2.4.2. 熱絕緣 1</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs3521239">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_ht_ins1.png" alt="equ_ht_ins1.png" width="62" height="17" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs3209910">
+      <a name="cs7684281">
+         <span>2.4.3. 熱通量 1</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs9228269">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_ht_hf1_1.png" alt="equ_ht_hf1_1.png" width="66" height="18" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_ht_hf1_2.png" alt="equ_ht_hf1_2.png" width="88" height="20" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs1582378">
+      <a name="cs6152294">
+         <span>2.4.4. 流出 1</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs9498961">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_ht_ofl1.png" alt="equ_ht_ofl1.png" width="62" height="17" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs2544391">
+      <a name="cs4708879">
+         <span>2.4.5. 熱通量 4</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs2118949">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_ht_hf4_1.png" alt="equ_ht_hf4_1.png" width="66" height="18" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_ht_hf4_2.png" alt="equ_ht_hf4_2.png" width="88" height="20" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs6489752">
+      <a name="cs2926283">
+         <span>2.4.6. 熱通量 5</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs1190520">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_ht_hf5_1.png" alt="equ_ht_hf5_1.png" width="66" height="18" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_ht_hf5_2.png" alt="equ_ht_hf5_2.png" width="88" height="20" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs8468338">
+      <a name="cs3426114">
+         <span>2.4.7. 熱通量 6</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs3967116">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_ht_hf6_1.png" alt="equ_ht_hf6_1.png" width="66" height="18" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_ht_hf6_2.png" alt="equ_ht_hf6_2.png" width="88" height="20" style="padding-left:18pt;border:none" />
+    </p>
+    <h3 id="cs4505825">
+      <a name="cs2970823">
+         <span>2.5. 紊流 , k-ε 3</span>
+      </a>
+    </h3>
+    <p>
+      <img src="Untitled_files/physics_spf3.png" alt="physics_spf3.png" width="480" height="360" />
+    </p>
+    <p style="font-style:italic">
+      <a name="cs4463608">
+         <span>紊流 , k-ε 3</span>
+      </a>
+    </p>
+    <div class="TableHeading" id="cs9554990">
+       <span>Equations</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_spf3_1.png" alt="equ_spf3_1.png" width="135" height="30" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_2.png" alt="equ_spf3_2.png" width="260" height="30" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_3.png" alt="equ_spf3_3.png" width="79" height="19" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_4.png" alt="equ_spf3_4.png" width="289" height="42" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_5.png" alt="equ_spf3_5.png" width="392" height="42" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_7.png" alt="equ_spf3_7.png" width="20" height="4" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_8.png" alt="equ_spf3_8.png" width="78" height="32" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_9.png" alt="equ_spf3_9.png" width="182" height="30" style="padding-left:18pt;border:none" />
+    </p>
+    <table border="1">
+      <caption>
+        <a name="cs2159667">
+           <span>元件</span>
+        </a>
+      </caption>
+      <tr>
+        <td>
+           <span>流體屬性 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>初始值 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>壁 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>重力 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>入口 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>出口 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>體積力 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>入口 2</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>入口 3</span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs3279867">
+      <a name="cs3043239">
+         <span>2.5.1. 流體屬性 1</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs3747784">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_spf3_fp1_1.png" alt="equ_spf3_fp1_1.png" width="137" height="34" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_fp1_2.png" alt="equ_spf3_fp1_2.png" width="260" height="34" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_fp1_3.png" alt="equ_spf3_fp1_3.png" width="80" height="22" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_fp1_4.png" alt="equ_spf3_fp1_4.png" width="289" height="45" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_fp1_5.png" alt="equ_spf3_fp1_5.png" width="393" height="45" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_fp1_6.png" alt="equ_spf3_fp1_6.png" width="4" height="4" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_fp1_7.png" alt="equ_spf3_fp1_7.png" width="20" height="4" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs1030026">
+      <a name="cs7332980">
+         <span>2.5.2. 初始值 1</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs1521252">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_spf3_init1_1.png" alt="equ_spf3_init1_1.png" width="101" height="21" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_init1_2.png" alt="equ_spf3_init1_2.png" width="143" height="20" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs6055608">
+      <a name="cs5538990">
+         <span>2.5.3. 壁 1</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs3851016">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_spf3_wallbc1_1.png" alt="equ_spf3_wallbc1_1.png" width="62" height="17" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_wallbc1_2.png" alt="equ_spf3_wallbc1_2.png" width="246" height="36" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_wallbc1_3.png" alt="equ_spf3_wallbc1_3.png" width="136" height="19" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_wallbc1_4.png" alt="equ_spf3_wallbc1_4.png" width="156" height="48" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs2765061">
+      <a name="cs9729843">
+         <span>2.5.4. 重力 1</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs6416948">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_spf3_grav1_1.png" alt="equ_spf3_grav1_1.png" width="135" height="30" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_grav1_2.png" alt="equ_spf3_grav1_2.png" width="261" height="30" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs1235359">
+      <a name="cs5105159">
+         <span>2.5.5. 入口 1</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs9795303">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_spf3_inl1_1.png" alt="equ_spf3_inl1_1.png" width="61" height="19" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_inl1_2.png" alt="equ_spf3_inl1_2.png" width="52" height="16" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_inl1_3.png" alt="equ_spf3_inl1_3.png" width="169" height="39" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs1175684">
+      <a name="cs6516381">
+         <span>2.5.6. 出口 1</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs5469447">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_spf3_out1_1.png" alt="equ_spf3_out1_1.png" width="301" height="30" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_out1_2.png" alt="equ_spf3_out1_2.png" width="56" height="18" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_out1_3.png" alt="equ_spf3_out1_3.png" width="143" height="20" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_out1_4.png" alt="equ_spf3_out1_4.png" width="140" height="17" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs7624884">
+      <a name="cs6973078">
+         <span>2.5.7. 體積力 1</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs3838072">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_spf3_vf1_1.png" alt="equ_spf3_vf1_1.png" width="135" height="30" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_vf1_2.png" alt="equ_spf3_vf1_2.png" width="261" height="30" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs5163608">
+      <a name="cs5936912">
+         <span>2.5.8. 入口 2</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs7809860">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_spf3_inl2_1.png" alt="equ_spf3_inl2_1.png" width="61" height="19" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_inl2_2.png" alt="equ_spf3_inl2_2.png" width="52" height="16" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_inl2_3.png" alt="equ_spf3_inl2_3.png" width="169" height="39" style="padding-left:18pt;border:none" />
+    </p>
+    <h4 id="cs8754925">
+      <a name="cs4280948">
+         <span>2.5.9. 入口 3</span>
+      </a>
+    </h4>
+    <div class="TableHeading" id="cs6764926">
+       <span>方程式</span>
+    </div>
+    <p>
+      <img src="Untitled_files/equ_spf3_inl3_1.png" alt="equ_spf3_inl3_1.png" width="61" height="19" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_inl3_2.png" alt="equ_spf3_inl3_2.png" width="52" height="16" style="padding-left:18pt;border:none" />
+    </p>
+    <p>
+      <img src="Untitled_files/equ_spf3_inl3_3.png" alt="equ_spf3_inl3_3.png" width="169" height="39" style="padding-left:18pt;border:none" />
+    </p>
+    <h3 id="cs9231724">
+      <a name="cs7164823">
+         <span>2.6. 網格 1</span>
+      </a>
+    </h3>
+    <p>
+      <img src="Untitled_files/mesh_mesh1.png" alt="mesh_mesh1.png" width="480" height="360" />
+    </p>
+    <p style="font-style:italic">
+      <a name="cs6153294">
+         <span>網格 1</span>
+      </a>
+    </p>
+    <h2 id="cs4242659">
+      <a name="cs8342147">
+         <span>3. 研究 1</span>
+      </a>
+    </h2>
+    <table border="1">
+      <caption>
+        <a name="cs2614548">
+           <span>計算資訊</span>
+        </a>
+      </caption>
+      <tr>
+        <td>
+           <span>計算時間</span>
+        </td>
+        <td>
+           <span>9 min 41 s</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>CPU</span>
+        </td>
+        <td>
+           <span>Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz, 4 核心</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>作業系統</span>
+        </td>
+        <td>
+           <span>Windows 7</span>
+        </td>
+      </tr>
+    </table>
+    <h3 id="cs8296406">
+      <a name="cs9441983">
+         <span>3.1. 時間相依</span>
+      </a>
+    </h3>
+    <table border="1">
+      <tr>
+        <th>
+           <span>時間</span>
+        </th>
+        <th>
+           <span>單位</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>0 45</span>
+        </td>
+        <td>
+           <span>min</span>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs4018704">
+           <span>研究設定</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>包含幾何非線性</span>
+        </td>
+        <td>
+           <span>關</span>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs5630012">
+           <span>物理和變數選擇區</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>物理介面</span>
+        </th>
+        <th>
+           <span>離散</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>層流 (spf)</span>
+        </td>
+        <td>
+           <span>physics</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>流體熱傳 (ht)</span>
+        </td>
+        <td>
+           <span>physics</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>固體熱傳 2 (ht2)</span>
+        </td>
+        <td>
+           <span>physics</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>紊流 , 低雷諾數 k-ε 2 (spf2)</span>
+        </td>
+        <td>
+           <span>physics</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>紊流 , k-ε 3 (spf3)</span>
+        </td>
+        <td>
+           <span>physics</span>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs7228009">
+           <span>網格選擇</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>幾何</span>
+        </th>
+        <th>
+           <span>網格</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>幾何 1 (geom1)</span>
+        </td>
+        <td>
+           <span>mesh1</span>
+        </td>
+      </tr>
+    </table>
+    <h2 id="cs3523134">
+      <a name="cs9829426">
+         <span>4. 結果</span>
+      </a>
+    </h2>
+    <h3 id="cs6097071">
+      <a name="cs9019928">
+         <span>4.1. 資料集</span>
+      </a>
+    </h3>
+    <h4 id="cs3515638">
+      <a name="cs2375011">
+         <span>4.1.1. 研究 1/解 1</span>
+      </a>
+    </h4>
+    <table border="1">
+      <caption>
+        <a name="cs8402407">
+           <span>解</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>解</span>
+        </td>
+        <td>
+           <span>解 1</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>元件</span>
+        </td>
+        <td>
+           <span>Save Point Geometry 1</span>
+        </td>
+      </tr>
+    </table>
+    <p>
+      <img src="Untitled_files/dataset_dset1.png" alt="dataset_dset1.png" width="480" height="360" />
+    </p>
+    <p style="font-style:italic">
+      <a name="cs4719520">
+         <span>資料集: 研究 1/解 1</span>
+      </a>
+    </p>
+    <h4 id="cs5112787">
+      <a name="cs2966970">
+         <span>4.1.2. 外部壁</span>
+      </a>
+    </h4>
+    <table border="1">
+      <caption>
+        <a name="cs3083489">
+           <span>數據</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>資料集</span>
+        </td>
+        <td>
+          <a href="#cs2375011">
+             <span>研究 1/解 1</span>
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs4972732">
+           <span>參數化</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>x- 和 y- 軸</span>
+        </td>
+        <td>
+           <span>表面參數</span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs3434091">
+      <a name="cs2110164">
+         <span>4.1.3. 外部壁 1</span>
+      </a>
+    </h4>
+    <table border="1">
+      <caption>
+        <a name="cs1520197">
+           <span>數據</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>資料集</span>
+        </td>
+        <td>
+          <a href="#cs2375011">
+             <span>研究 1/解 1</span>
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs4323303">
+           <span>參數化</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>x- 和 y- 軸</span>
+        </td>
+        <td>
+           <span>表面參數</span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs6846023">
+      <a name="cs9579855">
+         <span>4.1.4. 外部壁 2</span>
+      </a>
+    </h4>
+    <table border="1">
+      <caption>
+        <a name="cs4929687">
+           <span>數據</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>資料集</span>
+        </td>
+        <td>
+          <a href="#cs2375011">
+             <span>研究 1/解 1</span>
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs9030566">
+           <span>參數化</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>x- 和 y- 軸</span>
+        </td>
+        <td>
+           <span>表面參數</span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs2336955">
+      <a name="cs2015765">
+         <span>4.1.5. 外部壁 3</span>
+      </a>
+    </h4>
+    <table border="1">
+      <caption>
+        <a name="cs4868351">
+           <span>數據</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>資料集</span>
+        </td>
+        <td>
+          <a href="#cs2375011">
+             <span>研究 1/解 1</span>
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs7627066">
+           <span>參數化</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>x- 和 y- 軸</span>
+        </td>
+        <td>
+           <span>表面參數</span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs9274313">
+      <a name="cs3669243">
+         <span>4.1.6. 外部壁 4</span>
+      </a>
+    </h4>
+    <table border="1">
+      <caption>
+        <a name="cs9129511">
+           <span>數據</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>資料集</span>
+        </td>
+        <td>
+          <a href="#cs2375011">
+             <span>研究 1/解 1</span>
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs2417839">
+           <span>參數化</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>x- 和 y- 軸</span>
+        </td>
+        <td>
+           <span>表面參數</span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs7447358">
+      <a name="cs4242342">
+         <span>4.1.7. 外部壁 5</span>
+      </a>
+    </h4>
+    <table border="1">
+      <caption>
+        <a name="cs3869172">
+           <span>數據</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>資料集</span>
+        </td>
+        <td>
+          <a href="#cs2375011">
+             <span>研究 1/解 1</span>
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs3194948">
+           <span>參數化</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>x- 和 y- 軸</span>
+        </td>
+        <td>
+           <span>表面參數</span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs3785895">
+      <a name="cs3372326">
+         <span>4.1.8. 外部壁 7</span>
+      </a>
+    </h4>
+    <table border="1">
+      <caption>
+        <a name="cs6721232">
+           <span>數據</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>資料集</span>
+        </td>
+        <td>
+          <a href="#cs2375011">
+             <span>研究 1/解 1</span>
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs5787010">
+           <span>參數化</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>x- 和 y- 軸</span>
+        </td>
+        <td>
+           <span>表面參數</span>
+        </td>
+      </tr>
+    </table>
+    <h4 id="cs2023890">
+      <a name="cs5975938">
+         <span>4.1.9. 外部壁 8</span>
+      </a>
+    </h4>
+    <table border="1">
+      <caption>
+        <a name="cs7733999">
+           <span>數據</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>資料集</span>
+        </td>
+        <td>
+          <a href="#cs2375011">
+             <span>研究 1/解 1</span>
+          </a>
+        </td>
+      </tr>
+    </table>
+    <table border="1">
+      <caption>
+        <a name="cs9978161">
+           <span>參數化</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>描述</span>
+        </th>
+        <th>
+           <span>值</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>x- 和 y- 軸</span>
+        </td>
+        <td>
+           <span>表面參數</span>
+        </td>
+      </tr>
+    </table>
+    <h3 id="cs4190351">
+      <a name="cs5083453">
+         <span>4.2. 表單</span>
+      </a>
+    </h3>
+    <h4 id="cs9384344">
+      <a name="cs7995862">
+         <span>4.2.1. Evaluation 3D</span>
+      </a>
+    </h4>
+    <p>
+      <a name="cs9094869">
+         <span>互動 3d 值</span>
+      </a>
+    </p>
+    <table border="1">
+      <caption>
+        <a name="cs1980937">
+           <span>Evaluation 3D</span>
+        </a>
+      </caption>
+      <tr>
+        <th>
+           <span>x</span>
+        </th>
+        <th>
+           <span>y</span>
+        </th>
+        <th>
+           <span>z</span>
+        </th>
+        <th>
+           <span>Value</span>
+        </th>
+      </tr>
+      <tr>
+        <td>
+           <span>-8.8818E-16</span>
+        </td>
+        <td>
+           <span>4.0763</span>
+        </td>
+        <td>
+           <span>0.23952</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>8.8818E-16</span>
+        </td>
+        <td>
+           <span>3.7559</span>
+        </td>
+        <td>
+           <span>0.050599</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>8.8818E-16</span>
+        </td>
+        <td>
+           <span>2.3959</span>
+        </td>
+        <td>
+           <span>0.067354</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-2.6645E-15</span>
+        </td>
+        <td>
+           <span>2.6170</span>
+        </td>
+        <td>
+           <span>-0.21524</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>0.0000</span>
+        </td>
+        <td>
+           <span>4.5219</span>
+        </td>
+        <td>
+           <span>-0.66491</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-1.7764E-15</span>
+        </td>
+        <td>
+           <span>2.3423</span>
+        </td>
+        <td>
+           <span>-0.23319</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-8.8818E-16</span>
+        </td>
+        <td>
+           <span>3.5105</span>
+        </td>
+        <td>
+           <span>-0.28434</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>3.5527E-15</span>
+        </td>
+        <td>
+           <span>4.0962</span>
+        </td>
+        <td>
+           <span>0.072967</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>1.7764E-15</span>
+        </td>
+        <td>
+           <span>3.4487</span>
+        </td>
+        <td>
+           <span>-0.35204</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>8.8818E-16</span>
+        </td>
+        <td>
+           <span>0.69230</span>
+        </td>
+        <td>
+           <span>-0.67865</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>0.0000</span>
+        </td>
+        <td>
+           <span>-0.81767</span>
+        </td>
+        <td>
+           <span>-1.6360</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-8.8818E-16</span>
+        </td>
+        <td>
+           <span>-1.5345</span>
+        </td>
+        <td>
+           <span>-1.8898</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>2.6645E-15</span>
+        </td>
+        <td>
+           <span>-1.7554</span>
+        </td>
+        <td>
+           <span>-1.1093</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-8.8818E-16</span>
+        </td>
+        <td>
+           <span>-1.7765</span>
+        </td>
+        <td>
+           <span>-0.62827</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>0.0000</span>
+        </td>
+        <td>
+           <span>-2.0114</span>
+        </td>
+        <td>
+           <span>0.45108</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>1.7764E-15</span>
+        </td>
+        <td>
+           <span>-2.4151</span>
+        </td>
+        <td>
+           <span>1.5453</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>0.0000</span>
+        </td>
+        <td>
+           <span>-2.5271</span>
+        </td>
+        <td>
+           <span>2.1750</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>2.2204E-16</span>
+        </td>
+        <td>
+           <span>-5.2371</span>
+        </td>
+        <td>
+           <span>0.47447</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>0.0000</span>
+        </td>
+        <td>
+           <span>-4.2280</span>
+        </td>
+        <td>
+           <span>-0.023652</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>8.8818E-16</span>
+        </td>
+        <td>
+           <span>3.3222</span>
+        </td>
+        <td>
+           <span>-0.53508</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>2.6645E-15</span>
+        </td>
+        <td>
+           <span>4.9990</span>
+        </td>
+        <td>
+           <span>-1.3344</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>0.0000</span>
+        </td>
+        <td>
+           <span>5.3994</span>
+        </td>
+        <td>
+           <span>-1.9388</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>8.8818E-16</span>
+        </td>
+        <td>
+           <span>5.6253</span>
+        </td>
+        <td>
+           <span>-2.1922</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-1.3323E-15</span>
+        </td>
+        <td>
+           <span>3.0326</span>
+        </td>
+        <td>
+           <span>-1.4332</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-1.7764E-15</span>
+        </td>
+        <td>
+           <span>-1.5700</span>
+        </td>
+        <td>
+           <span>-0.34619</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>8.8818E-16</span>
+        </td>
+        <td>
+           <span>-2.2447</span>
+        </td>
+        <td>
+           <span>0.048928</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>0.0000</span>
+        </td>
+        <td>
+           <span>-0.85632</span>
+        </td>
+        <td>
+           <span>-0.98482</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>8.8818E-16</span>
+        </td>
+        <td>
+           <span>-0.65268</span>
+        </td>
+        <td>
+           <span>-0.025024</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>1.7764E-15</span>
+        </td>
+        <td>
+           <span>-0.76891</span>
+        </td>
+        <td>
+           <span>0.27774</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>1.3323E-15</span>
+        </td>
+        <td>
+           <span>-0.34533</span>
+        </td>
+        <td>
+           <span>0.21470</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-4.4409E-16</span>
+        </td>
+        <td>
+           <span>0.23875</span>
+        </td>
+        <td>
+           <span>0.10211</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-1.3323E-15</span>
+        </td>
+        <td>
+           <span>0.024740</span>
+        </td>
+        <td>
+           <span>0.080100</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-2.6645E-15</span>
+        </td>
+        <td>
+           <span>-0.048860</span>
+        </td>
+        <td>
+           <span>0.39820</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>0.0000</span>
+        </td>
+        <td>
+           <span>-0.048685</span>
+        </td>
+        <td>
+           <span>0.53104</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>1.3323E-15</span>
+        </td>
+        <td>
+           <span>-0.089456</span>
+        </td>
+        <td>
+           <span>1.0507</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>0.0000</span>
+        </td>
+        <td>
+           <span>-0.068417</span>
+        </td>
+        <td>
+           <span>1.3270</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>8.8818E-16</span>
+        </td>
+        <td>
+           <span>-0.10551</span>
+        </td>
+        <td>
+           <span>1.6922</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>0.0000</span>
+        </td>
+        <td>
+           <span>-0.11786</span>
+        </td>
+        <td>
+           <span>1.9051</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>0.0000</span>
+        </td>
+        <td>
+           <span>-0.13450</span>
+        </td>
+        <td>
+           <span>2.0081</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>8.8818E-16</span>
+        </td>
+        <td>
+           <span>-0.11350</span>
+        </td>
+        <td>
+           <span>2.1521</span>
+        </td>
+        <td>
+           <span>1.0000</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-8.8818E-16</span>
+        </td>
+        <td>
+           <span>3.8625</span>
+        </td>
+        <td>
+           <span>1.0235</span>
+        </td>
+        <td>
+           <span>1.0596</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-1.5000</span>
+        </td>
+        <td>
+           <span>0.93169</span>
+        </td>
+        <td>
+           <span>-0.39476</span>
+        </td>
+        <td>
+           <span>297.15</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-1.5000</span>
+        </td>
+        <td>
+           <span>-0.80102</span>
+        </td>
+        <td>
+           <span>-0.51110</span>
+        </td>
+        <td>
+           <span>297.12</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>-1.5013</span>
+        </td>
+        <td>
+           <span>1.2022</span>
+        </td>
+        <td>
+           <span>2.5000</span>
+        </td>
+        <td>
+           <span>303.15</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+           <span>3.0616</span>
+        </td>
+        <td>
+           <span>6.0599</span>
+        </td>
+        <td>
+           <span>3.1700</span>
+        </td>
+        <td>
+           <span>0.0017548</span>
+        </td>
+      </tr>
+    </table>
+    <h3 id="cs6844240">
+      <a name="cs4238010">
+         <span>4.3. 繪圖群組</span>
+      </a>
+    </h3>
+    <h4 id="cs6856307">
+      <a name="cs5890349">
+         <span>4.3.1. 溫度 (ht)</span>
+      </a>
+    </h4>
+    <p>
+      <img src="Untitled_files/plotgroup_pg1.png" alt="plotgroup_pg1.png" width="480" height="360" />
+    </p>
+    <p style="font-style:italic">
+      <a name="cs9924488">
+         <span>時間=0.51269 min 表面: 溫度 (degC)</span>
+      </a>
+    </p>
+    <h4 id="cs7828575">
+      <a name="cs2892512">
+         <span>4.3.2. 等溫等高線 (ht)</span>
+      </a>
+    </h4>
+    <p>
+      <img src="Untitled_files/plotgroup_pg2.png" alt="plotgroup_pg2.png" width="480" height="360" />
+    </p>
+    <p style="font-style:italic">
+      <a name="cs4799861">
+         <span>時間=0.73749 min 箭頭面: 總熱通量 切面: 溫度 (degC)</span>
+      </a>
+    </p>
+    <h4 id="cs6637224">
+      <a name="cs5393180">
+         <span>4.3.3. 速度 (spf3)</span>
+      </a>
+    </h4>
+    <p>
+      <img src="Untitled_files/plotgroup_pg3.png" alt="plotgroup_pg3.png" width="480" height="360" />
+    </p>
+    <p style="font-style:italic">
+      <a name="cs3505460">
+         <span>時間=0 min 表面: 速度大小 (m/s) 流線: 總熱通量 箭頭線: 總熱通量 點軌跡 粒子追蹤: 總熱通量</span>
+      </a>
+    </p>
+    <h4 id="cs8815028">
+      <a name="cs5624416">
+         <span>4.3.4. 1D 繪圖群組 4</span>
+      </a>
+    </h4>
+    <p>
+      <img src="Untitled_files/plotgroup_pg4.png" alt="plotgroup_pg4.png" width="480" height="360" />
+    </p>
+    <p style="font-style:italic">
+      <a name="cs6293454">
+         <span>點圖: 溫度 (degC)</span>
+      </a>
+    </p>
+  </body>
+</html>
