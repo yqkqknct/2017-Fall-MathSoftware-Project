@@ -1,6 +1,6 @@
 # 2017 Fall 數學軟體實作課－期末專題
 
-
+[介紹影片](https://www.youtube.com/watch?v=dEowr4i1pXI&feature=youtu.be)
 
 ## 簡介
 
